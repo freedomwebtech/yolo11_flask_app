@@ -118,4 +118,4 @@ def video_feed(filename):
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    app.run(debug=False, port=8080)
+    app.run('0.0.0.0',debug=False, port=8080)
